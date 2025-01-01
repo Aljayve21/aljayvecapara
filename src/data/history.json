@@ -1,0 +1,27 @@
+[
+    {
+        "role": "Executive Assistant",
+        "organisation" : "Capsa London Ltd",
+        "startDate" : "Febuary, 2023",
+        "endDate" : "March, 2023",
+        "experiences": ["Virtual Assistant (Any related task)", "Graphic Design", "Video Editing", "Data Entry - (Data Analyst)", "Lead Generation"],
+        "imageSrc" : "history/capsa.jpg"
+    },
+    {
+        "role" : "Thesis Project Developer",
+        "organisation" : "STI College Balagtas",
+        "startDate" : "March, 2023",
+        "endDate" : "November, 2023",
+        "experiences" : ["Built a website for a beep server connecting Arduino and patients' vital signs, transferring data to the site.", "Implemented appointment scheduling functionality directly on the website.", "Focused on website development using Laravel and Bootstrap."],
+        "imageSrc" : "history/BEEP SERVER.png"
+        
+    },
+    {
+        "role" : "Thesis Project Developer",
+        "organisation" : "STI College Balagtas",
+        "startDate" : "March, 2024",
+        "endDate" : "November, 2024",
+        "experiences" : ["Built a Windows application called CleverKada with Kinect, serving as the backend developer.", "Contributed to front-end development as well.", "The project was completed as a thesis with teammates.","Developed a 3D game in Unity controlled by Kinect.", "Technologies used: C#, WPF (Visual Studio), and Unity."],
+        "imageSrc" : "history/cleverkada.png"
+    }
+]

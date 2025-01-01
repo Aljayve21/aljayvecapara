@@ -1,0 +1,50 @@
+[
+    {
+        "title": "C#",
+        "imageSrc": "skills/cshrap.png"
+    },
+    {
+        "title": "HTML",
+        "imageSrc": "skills/html.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "Node",
+        "imageSrc": "skills/node.png"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "skills/figma.png"
+    },
+    {
+        "title": "Bootstrap",
+        "imageSrc": "skills/Bootstrap.png"
+    },
+    {
+        "title": "Git",
+        "imageSrc": "skills/git.png"
+    },
+    {
+        "title": "JavaScript",
+        "imageSrc": "skills/javascript.png"
+    },
+    {
+        "title": "Java",
+        "imageSrc": "skills/Java.png"
+    },
+    {
+        "title": "PHP",
+        "imageSrc": "skills/PHP.png"
+    },
+    {
+        "title": "Laravel",
+        "imageSrc": "skills/Laravel.png"
+    },
+    {
+        "title": "Xampp",
+        "imageSrc": "skills/xampp.png"
+    }
+]

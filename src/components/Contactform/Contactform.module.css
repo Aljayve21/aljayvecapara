@@ -1,0 +1,64 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display:inline-flex;
+    border-radius: 15px;
+    background-color: var(--color-secondary);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 50%;
+    margin-right: 10%;
+  }
+.contactFormContainer {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup {
+    margin-bottom: 20px;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--color-text);
+}
+
+.inputGroup input,
+.inputGroup textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.submitBtn {
+    padding: 10px 20px;
+    background: var(--color-primary);
+    border-radius: 100px;
+    border: 0px;
+    color: var(--color-text);
+}
+
+.submitBtn:hover {
+    background-color: #0054b3;
+}
+
+
+.successMessage {
+    padding: 10px;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    border-radius: 4px;
+    text-align: center;
+}

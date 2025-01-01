@@ -1,0 +1,34 @@
+[
+    {
+        "title" : "Trendy-Threads",
+        "imageSrc" : "projects/trendythreads.png",
+        "description" : "The Project that I build and the Technologies That I used are HTML, CSS, AJAX, jQuery, API, and ReactJS",
+        "skills" : ["React", "restapi", "scss"],
+        "demo": "https://lucky-twilight-52f967.netlify.app/",
+        "source" : "https://github.com/Aljayve21/mini-project2.github.io/tree/main"
+    },
+    {
+        "title" : "eCommerce Trendy-Threads",
+        "imageSrc" : "projects/eCommerce.png",
+        "description" : "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "skills" : ["Laravel", "MySQL", "CSS"],
+        "demo": "https://github.com/Aljayve21/eCommerce.git",
+        "source" : "https://github.com/Aljayve21/eCommerce.git"
+    },
+    {
+        "title" : "Beat-Server",
+        "imageSrc" : "projects/beepserver.png",
+        "description" : "I built a website for a beep server that connects Arduino and patients' vital signs, transferring the data to the website. The website also allows users to make appointments directly. My role was focused on developing the website, and I used Laravel and Bootstrap for the project.",
+        "skills" : ["Laravel", "MySQL", "CSS", "JavaScript"],
+        "demo": "https://github.com/Aljayve21/beat-server.git",
+        "source" : "https://github.com/Aljayve21/beat-server.git"
+    },
+    {
+        "title" : "CleverKada",
+        "imageSrc" : "projects/cleverkada.png",
+        "description" : "I built a Windows application called CleverKada with Kinect, where my role was as the backend developer, and I also contributed to some of the front-end development. This was my thesis project, completed with my teammates. We also developed a 3D game in Unity that is controlled by Kinect. The technologies I used include C#, WPF in Visual Studio, and Unity.",
+        "skills" : ["C#", "Microsoft SQL", "Visual Studio", "Kinect"],
+        "demo": "https://github.com/Aljayve21/CleverkadaProject.git",
+        "source" : "https://github.com/Aljayve21/CleverkadaProject.git"
+    }
+]
