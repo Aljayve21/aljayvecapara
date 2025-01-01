@@ -1,6 +1,5 @@
-// utils.js
 export const getImageUrl = (path) => {
-  const imageUrl = `/assets/${path}`; // Directly reference assets in the public folder
+  const imageUrl = `/aljayvecapara/assets/${path}`;  
   console.log(`Generated Image URL: ${imageUrl}`);
   return imageUrl;
 };
