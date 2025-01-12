@@ -23,7 +23,7 @@ const About = () => {
     <>
       <h2 className="head-text">Building systems that  <span> Solve real problems</span> <br />one line of <span>code at a time</span></h2>
 
-      <div>
+      <div className="app__profiles">
         {abouts.map((about,index) => (
                    <motion.div
                    whileInView={{ opacity: 1 }}
