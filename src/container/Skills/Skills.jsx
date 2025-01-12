@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Tooltip } from 'react-tooltip'; 
+import { Tooltip } from 'react-tooltip';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
@@ -34,7 +34,7 @@ const Skills = () => {
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}
               className="app__skills-item app__flex"
-              key={skill._id}
+              key={skill.name}
             >
               <div
                 className="app__flex"
@@ -56,32 +56,25 @@ const Skills = () => {
                 <p className="bold-text">{experience.year}</p>
               </div>
               <motion.div className="app__skills-exp-works">
-                {experience.works.map((work) => {
-                  // Log the work description
-                  console.log(work.desc);  // Add this line to log work.desc
-
-                  return (
+                {experience.works.map((work) => (
+                  <React.Fragment key={work.name}>
                     <motion.div
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
-                      data-tip
-                      data-for={work.name}
-                      key={work._id || work.name}
+                      data-tooltip-id={work.name} 
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
-                      <Tooltip
-                        id={work.name}
-                        effect="solid"
-                        arrowColor="#fff"
-                        className="skills-tooltip"
-                      >
-                        {work.desc}
-                      </Tooltip>
                     </motion.div>
-                  );
-                })}
+                    <Tooltip
+                      id={work.name} 
+                      content={work.desc}
+                      place="top"
+                      className="skills-tooltip"
+                    />
+                  </React.Fragment>
+                ))}
               </motion.div>
             </motion.div>
           ))}
