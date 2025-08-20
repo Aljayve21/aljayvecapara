@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aljayvecapara/static/css/main.2bdd690f.css",
-    "main.js": "/aljayvecapara/static/js/main.bfcc6a6f.js",
+    "main.js": "/aljayvecapara/static/js/main.f86a2af1.js",
     "static/js/796.b6328bef.chunk.js": "/aljayvecapara/static/js/796.b6328bef.chunk.js",
     "static/js/165.ff5c1393.chunk.js": "/aljayvecapara/static/js/165.ff5c1393.chunk.js",
     "static/media/about04.png": "/aljayvecapara/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -31,12 +31,12 @@
     "index.html": "/aljayvecapara/index.html",
     "static/media/circle.svg": "/aljayvecapara/static/media/circle.ae5f84b3853b9e34aa83cf8dada715c5.svg",
     "main.2bdd690f.css.map": "/aljayvecapara/static/css/main.2bdd690f.css.map",
-    "main.bfcc6a6f.js.map": "/aljayvecapara/static/js/main.bfcc6a6f.js.map",
+    "main.f86a2af1.js.map": "/aljayvecapara/static/js/main.f86a2af1.js.map",
     "796.b6328bef.chunk.js.map": "/aljayvecapara/static/js/796.b6328bef.chunk.js.map",
     "165.ff5c1393.chunk.js.map": "/aljayvecapara/static/js/165.ff5c1393.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bdd690f.css",
-    "static/js/main.bfcc6a6f.js"
+    "static/js/main.f86a2af1.js"
   ]
 }
