@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
+import { AiFillEye } from 'react-icons/ai';
 import './Certificates.scss';
 
 const Certificates = () => {
